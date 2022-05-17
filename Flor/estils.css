@@ -1,0 +1,87 @@
+body{
+  background-color: lightblue;
+}
+
+
+#gespa{
+  width:auto;
+  height:100px;
+  background-color: lightgreen;
+  position:relative;
+  top:700px;
+}
+
+
+.contenedor{
+  background-color: lightblue;
+  height:610px;
+  width:610px;
+  margin:0 auto;
+
+
+}
+
+
+#tallo{
+  height:200px;
+  width:15px;
+  background-color: green;
+  top:400px;
+  position:relative;
+  left:305px;
+}
+
+
+.semilla{
+  height:20px;
+  width:20px;
+  border-radius: 50%;
+  background-color: yellow;
+  position:relative;
+  left:312px;
+  top:190px;
+  animation: movi 2s infinite linear;
+}
+
+@keyframes movi {
+  0%{
+    transform:translate(-50%,-50%) rotate(0deg)
+  }
+  100%{
+    transform:translate(-50%,-50%) rotate(360deg)
+  }
+}
+
+
+.petalo{
+  width:100px;
+  height:100px;
+  border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+  background-color: #F156F1;
+}
+
+.petalo.uno{
+  position: relative;
+  bottom:90px;
+  left:15px;
+}
+
+.petalo.dos{
+  position: relative;
+  right:95px;
+  bottom:85px;
+}
+
+.petalo.tres{
+  position:relative;
+  border-radius:0% 100% 0% 100% / 0% 100% 0% 100%;
+  left:15px;
+  bottom:185px;
+  }
+
+.petalo.cuatro{
+  position:relative;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+  bottom:390px;
+  right:95px;
+}

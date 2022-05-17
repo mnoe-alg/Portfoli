@@ -1,0 +1,72 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+    background-color: lightsalmon;
+}
+
+#header{
+  height:100px;
+  width:auto;
+  background-color: red;
+}
+
+@media screen and (max-width:767px){
+  #header{
+    background-color: lightgreen;
+  }
+}
+
+#contenedor{
+  height:500px;
+  width:600px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+
+.bolita{
+  height:150px;
+  width:150px;
+  background-color: red;
+  border-radius: 50%;
+  float: left;
+}
+
+p{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+@media screen and (max-width:767px){
+  p{
+    font-family: "Roboto", sans-serif;
+    font-size:15vw;
+    text-align: center;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .bolita{
+    background-color: lightcoral;
+    width:45vw;
+    height:45vw;
+  }
+}
+
+#footer{
+  width:auto;
+  background-color: red;
+  height:50px;
+}
+
+@media screen and (max-width:767px){
+  #footer{
+    background-color: lightgreen;
+    margin-top:800px;
+  }
+}
